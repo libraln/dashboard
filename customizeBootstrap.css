@@ -1,0 +1,70 @@
+  :root {
+    --blue: #2686DF;
+    --blue-ghost: #D4E7F9;
+    --orange: #F56514;
+    --black: #141414;
+    --title-color: #141414;
+    --text: #626262;
+    --super-light: #CACACA;
+    --red: #E22C2C;
+    --light-red: #E22929;
+    --orange1: #F56514;
+    --orange2: #F58E14;
+    --orange3: #FFB800;
+    --green1: #ABD15B;
+    --green2: #9BB437;
+    --green2: #7DB447;
+    --blue1: #4899B2;
+    --blue2: #6EAEEA;
+    --blue3: #6E89EA;
+  }
+
+body {
+  background-color: #f0f0f0 !important;
+}
+
+.badge {
+  background-color: var(--blue-ghost) !important;
+  color: var(--blue) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--title-color) !important;
+}
+
+.btn {
+  color: var(--blue) !important;
+}
+
+.btn:active {
+  color: var(--blue2) !important;
+}
+
+.card-link:active {
+  color: var(--blue2) !important;
+}
+
+.card-link {
+	color:red;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.card {
+  border-radius: 8px;
+  border: none;
+}
+
+.card-title {
+	color: var(--title-color);
+}
+
+.card-subtitle {
+	color: var(--text);
+}
+
+
+
+

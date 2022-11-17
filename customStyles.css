@@ -1,0 +1,49 @@
+:root {
+    --blue: #2686DF;
+    --blue-ghost: #D4E7F9;
+    --orange: #F56514;
+    --black: #141414;
+    --title-color: #141414;
+    --text: #626262;
+    --super-light: #CACACA;
+    --red: #E22C2C;
+    --light-red: #f54949;
+    --orange1: #F56514;
+    --orange2: #F58E14;
+    --orange3: #FFB800;
+    --green1: #ABD15B;
+    --green2: #9BB437;
+    --green2: #7DB447;
+    --blue1: #4899B2;
+    --blue2: #6EAEEA;
+    --blue3: #6E89EA;
+		--blueViolet: #8A2BE2;
+		--mediumPurple: #9370DB;
+  }
+.red-card {
+	background: linear-gradient(var(--light-red), 40%, var(--red));
+}
+
+.green-card {
+  background: linear-gradient(var(--green1), 40%, var(--green2));
+}
+
+.orange-card {
+	background: linear-gradient(var(--orange3), 40%, var(--orange2));
+}
+
+.blue-card {
+	background: linear-gradient(var(--blue2), 40%, var(--blue3));
+}
+
+.violet-card {
+	background: linear-gradient(var(--mediumPurple), 40%, var(--blueViolet));
+}
+
+.blue-progress-bar {
+  background-color: var(--blue) !important;
+}
+
+.green-progress-bar {
+	background-color: var(--green2) !important;
+}
