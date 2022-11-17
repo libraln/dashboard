@@ -40,10 +40,19 @@
 	background: linear-gradient(var(--mediumPurple), 40%, var(--blueViolet));
 }
 
-.blue-progress-bar {
+.progress-in-process {
+  background-color: var(--blue-ghost) !important;
+}
+
+.progress-bar-in-process {
   background-color: var(--blue) !important;
 }
 
-.green-progress-bar {
+.progress-bar-done {
 	background-color: var(--green2) !important;
+  width: 100%
+}
+
+.text-done {
+  color: var(--green2) !important;
 }
