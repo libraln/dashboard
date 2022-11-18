@@ -56,3 +56,15 @@
 .text-done {
   color: var(--green2) !important;
 }
+
+.arrow-right {
+  width:24px;
+  height:24px;
+  fill: var(--blue);
+}
+
+.arrow-right:active {
+  width:24px;
+  height:24px;
+  fill: var(--blue2) !important;
+}
