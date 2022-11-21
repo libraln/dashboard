@@ -68,3 +68,8 @@
   height:24px;
   fill: var(--blue2) !important;
 }
+
+.card-paragraph {
+  margin: 0;
+  font-weight: bold;
+}
