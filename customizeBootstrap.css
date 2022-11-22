@@ -25,18 +25,22 @@ body {
   background-color: var(--background) !important;
 }
 
+.first-heading {
+  font-size: 22px;
+}
+
 .badge {
   background-color: var(--blue-ghost) !important;
   color: var(--blue) !important;
   height: 21px;
   width: 125px;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--title-color) !important;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono';
   font-weight: 700;
 }
 
@@ -44,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--blue) !important;
   padding: 0;
   font-weight: 500;
+  font-size: 12px;
 }
 
 .btn:active {

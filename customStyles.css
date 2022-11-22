@@ -37,11 +37,13 @@
 }
 
 .money-card-title {
-  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
 }
 
 .money-card-subtitle {
-  font-size: 13px;
+  font-family: 'Open Sans';
+  font-size: 10px;
 }
 
 .card-container {
@@ -58,11 +60,13 @@
 }
 
 .account-card-title {
-  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
 }
 
 .account-card-subtitle {
-  font-size: 11px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
 }
 
 .card-icon {
@@ -74,7 +78,7 @@
 }
 
 .heading-container {
-  padding: 0 5px 0 5px;
+  padding: 0 5px 6px 5px;
 }
 
 .red-card {
@@ -130,19 +134,26 @@
 }
 
 .goal-card-title {
-  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  padding-top: 5px;
 }
 
 .goal-card-subtitle {
-  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  margin-bottom: 6px;
 }
 
 .goal-card-paragraph {
-  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
   margin: 0;
   font-weight: 500;
+  padding-top: 4px;
 }
 
 .card-block-title {
+  font-family: 'Roboto Mono', monospace;
   font-size: 16px;
 }
