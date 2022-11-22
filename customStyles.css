@@ -7,37 +7,94 @@
     --text: #626262;
     --super-light: #CACACA;
     --red: #E22C2C;
-    --light-red: #f54949;
+    --light-red: #F26262;
     --orange1: #F56514;
     --orange2: #F58E14;
     --orange3: #FFB800;
+    --orange4: #FA9916;
+    --orange5: #FAB54E;
     --green1: #ABD15B;
     --green2: #9BB437;
     --green2: #7DB447;
+    --green3: #83C339;
+    --green4: #A1D163;
     --blue1: #4899B2;
     --blue2: #6EAEEA;
     --blue3: #6E89EA;
-		--blueViolet: #8A2BE2;
-		--mediumPurple: #9370DB;
+    --blue4: #4D6EE7;
+    --blue5: #7896EE;
+		--purple1: #944AE6;
+		--purple2: #B279EE;
   }
+  
+.money-card {
+  width: 166px;
+  height: 62px;
+}
+
+.money-card-body {
+  padding: 15px 11px;
+}
+
+.money-card-title {
+  font-size: 15px;
+}
+
+.money-card-subtitle {
+  font-size: 13px;
+}
+
+.card-container {
+  padding: 5px 13px 15px 13px;
+}  
+
+.account-card {
+  height: 85px;
+  width: 106px;
+}
+
+.account-card-body, .goal-card-body {
+  padding: 10px;
+}
+
+.account-card-title {
+  font-size: 13px;
+}
+
+.account-card-subtitle {
+  font-size: 11px;
+}
+
+.card-icon {
+  width: 30px;
+}
+
+.first-heading-container {
+  padding-bottom: 7px;
+}
+
+.heading-container {
+  padding: 0 5px 0 5px;
+}
+
 .red-card {
 	background: linear-gradient(var(--light-red), 40%, var(--red));
 }
 
 .green-card {
-  background: linear-gradient(var(--green1), 40%, var(--green2));
+  background: linear-gradient(var(--green4), 40%, var(--green3));
 }
 
 .orange-card {
-	background: linear-gradient(var(--orange3), 40%, var(--orange2));
+	background: linear-gradient(var(--orange5), 40%, var(--orange4));
 }
 
 .blue-card {
-	background: linear-gradient(var(--blue2), 40%, var(--blue3));
+	background: linear-gradient(var(--blue5), 40%, var(--blue4));
 }
 
 .violet-card {
-	background: linear-gradient(var(--mediumPurple), 40%, var(--blueViolet));
+	background: linear-gradient(var(--purple2), 40%, var(--purple1));
 }
 
 .progress-in-process {
@@ -64,12 +121,28 @@
 }
 
 .arrow-right:active {
-  width:24px;
-  height:24px;
   fill: var(--blue2) !important;
 }
 
-.card-paragraph {
+.goal-card {
+  width: 166px;
+  height: 115px;
+}
+
+.goal-card-title {
+  font-size: 15px;
+}
+
+.goal-card-subtitle {
+  font-size: 15px;
+}
+
+.goal-card-paragraph {
+  font-size: 15px;
   margin: 0;
-  font-weight: bold;
+  font-weight: 500;
+}
+
+.card-block-title {
+  font-size: 16px;
 }
